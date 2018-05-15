@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-smoothing:antialiased;
+	font:12px Microsoft YaHei,tahoma,arial;
+}
+#container{
+	height:250px;
+	margin:0 auto;
+}
+#head{
+	height:80px;
+	background:url(../img/banner.png);
+}
+#cut{
+	background-color:#e3e4e5;
+	border-bottom:1px solid #ddd;
+	height:30px;
+	/*让图片和文字都垂直居中*/
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;				
+}
+.icon{
+	margin-left:330px;
+}
+.nav{
+	display:inline;
+	margin-left:200px;
+}
+.nav li{
+	display:inline-block;
+}
+.spacer{
+	overflow:hidden;
+	width:1px;
+	height:10px;
+	background-color: #ccc;
+	margin:11px 5px 0;
+}
+#footer{
+	height:140px;
+	background-color: #f0f3ef;
+}
+#logo{
+	position:absolute;
+	top:80px;
+	left:115px;
+}
+.search{
+	margin-top:2%;
+	margin-left:30%;
+	padding:4px 44px 4px 4px;
+	width:450px;
+	height:25px;
+	border:1px solid transparent;
+	line-height:25px;
+	font-size:14px;
+}
+.shopping{
+	float:right;
+	margin-top:2%;
+	margin-right:20%;
+	padding:4px 44px 4px 4px;
+	width:100px;
+	height:25px;
+	border:1px solid transparent;
+	line-height:25px;
+	font-size:14px;	
+	text-align:center;	
+}
+.sub{
+	margin-left:30%;
+	
+}
+.sub li{
+	margin:11px 5px 0;
+}
+.sub2{
+	margin-left:25%;
+	margin-top:15px;
+	font-size:15px;
+}
+.sub2 li{
+	display: inline-block;
+	margin:8px 8px 4px;
+
+}
